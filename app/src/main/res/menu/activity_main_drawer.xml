@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_list_of_services"
+            android:icon="@drawable/ic_action_service"
+            android:title="LIST OF SERVICES" />
+        <item
+            android:id="@+id/nav_booking_history"
+            android:icon="@drawable/ic_action_booking_history"
+            android:title="BOOKING HISTORY" />
+
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_action_review"
+            android:title="REVIEW" />
+
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/ic_action_my_account"
+            android:title="MY ACCOUNT" />
+    </group>
+</menu>

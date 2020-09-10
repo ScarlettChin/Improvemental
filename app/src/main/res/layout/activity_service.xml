@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BookingHistory.SlideshowFragment">
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/menu"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleservice"
+        android:layout_width="208dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:text="Enjoy Our Best Service"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/individualText"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
+        android:text="Individual psychological therapy (sometimes called “therapy”, “psychotherapy” or “ counselling”) Is a process where clients work  one on one with a psychologist in a safe, supportive,  and confidential environment. "
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individualCounseling" />
+
+    <TextView
+        android:id="@+id/individualCounseling"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/individual_counseling_title"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleservice" />
+
+    <Button
+        android:id="@+id/btnMoreInformationIndividual"
+        android:layout_width="145dp"
+        android:layout_height="28dp"
+        android:background="#E91E63"
+        android:onClick="oneClick"
+        android:text="@string/button_more_information_individual"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individualText"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/coupleText1"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/couple_text_no_1"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/CoupleMarriageCounselling" />
+
+    <Button
+        android:id="@+id/btnMoreInformationFamily"
+        android:layout_width="143dp"
+        android:layout_height="35dp"
+        android:background="#E91E63"
+        android:onClick="oneClick"
+        android:text="@string/button_more_information_family"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/familyText"
+        tools:ignore="OnClick"/>
+
+    <Button
+        android:id="@+id/btnMoreInformationCouple"
+        android:layout_width="147dp"
+        android:layout_height="24dp"
+        android:background="#E91E63"
+        android:onClick="oneClick"
+        android:text="@string/button_more_information_couple"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coupleText4"
+        tools:ignore="OnClick"/>
+
+    <TextView
+        android:id="@+id/coupleText2"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/couple_text_no_2"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/coupleText1" />
+
+    <TextView
+        android:id="@+id/CoupleMarriageCounselling"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/couple_text_title"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/individualText" />
+
+    <TextView
+        android:id="@+id/coupleText4"
+        android:layout_width="0dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/couple_text_no_4"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coupleText3" />
+
+    <TextView
+        android:id="@+id/coupleText3"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/couple_text_no_3"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coupleText1" />
+
+    <TextView
+        android:id="@+id/familyCounselling"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/family_counselling_text"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coupleText4" />
+
+    <TextView
+        android:id="@+id/familyText"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/family_Text"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/familyCounselling" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

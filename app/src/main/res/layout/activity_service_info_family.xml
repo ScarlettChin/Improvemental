@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceInfoFamily">
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/menu"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="49dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/backbutton"
+        app:layout_constraintEnd_toStartOf="@+id/individual_service_info2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView36"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="302dp"
+        android:layout_height="72dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/bookbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#E91E63"
+        android:onClick="oneClick"
+        android:text="@string/book_now"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="385dp"
+        android:layout_height="71dp"
+        android:text="@string/families_are_a_complex_unit_and_come_in_many_shapes_and_sizes_as_much_as_there_can_be_love_and_acceptance_in_your_family_there_can_also_be_many_issues_that_make_your_family_anything_but_loving_or_accepting"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/inability_to_communicate_effectively"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/continual_arguing_and_bickering"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/anger_management_issues"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="387dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/unwillingness_to_listen_when_someone_is_expressing_concerns"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/physical_altercations"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/work_performance_suffers"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/emotional_fatigue"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/depression"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/how_it_affects_you"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/anxiety"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/other_relationships_suffer"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="386dp"
+        android:layout_height="27dp"
+        android:text="@string/signs_and_symptoms_of_family_issues"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/stress"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="385dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/add_changing_dynamics_births_deaths_separations_and_growth_and_navigating_peaceful_relationships_can_be_challenging_these_and_many_other_events_can_trigger_family_conflict"
+        android:textColor="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <TextView
+        android:id="@+id/individual_service_info2"
+        android:layout_width="97dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/family_issues"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

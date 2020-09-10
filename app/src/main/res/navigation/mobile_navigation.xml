@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <activity
+        android:id="@+id/nav_home"
+        android:name="com.example.improvemental.ui.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_service"
+        android:name="com.example.improvemental.ui.Service"
+        android:label="@string/menu_service"
+        tools:layout="@layout/activity_service" />
+
+    <activity
+        android:id="@+id/nav_booking_history_upcoming"
+        android:name="com.example.improvemental.ui.BookingHistory."
+        android:label="@string/menu_booking_history_upcoming"
+        tools:layout="@layout/activity_booking_history_upcoming" />
+
+    <activity
+    android:id="@+id/nav_review"
+    android:name="com.example.improvemental.ui.Review.Review"
+    android:label="@string/menu_Review"
+    tools:layout="@layout/activity_review"/>
+
+    <activity
+        android:id="@+id/nav_MyAccount"
+        android:name="com.example.improvemental.ui.MyAccount."
+        android:label="@string/menu_MY_ACCOUNT"
+        tools:layout="@layout/activity_my_account" />
+</navigation>
